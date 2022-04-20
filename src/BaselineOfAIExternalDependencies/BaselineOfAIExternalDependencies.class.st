@@ -1,11 +1,11 @@
 Class {
-	#name : #BaselineOfExternalDependencies,
+	#name : #BaselineOfAIExternalDependencies,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfExternalDependencies
+	#category : #BaselineOfAIExternalDependencies
 }
 
 { #category : #baselines }
-BaselineOfExternalDependencies >> baseline: spec [
+BaselineOfAIExternalDependencies >> baseline: spec [
 
 	<baseline>
 	spec for: #( common ) do: [ "External dependecies"
@@ -23,7 +23,7 @@ BaselineOfExternalDependencies >> baseline: spec [
 ]
 
 { #category : #baselines }
-BaselineOfExternalDependencies >> defineGroups: spec [
+BaselineOfAIExternalDependencies >> defineGroups: spec [
 
 	spec
 		group: 'PolyMath' with: #( 'PolyMath' );
