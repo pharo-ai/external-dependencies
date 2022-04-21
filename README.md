@@ -17,7 +17,7 @@ Include the dependency inside your baseline. For example, if you want to use Roa
 ```st
 "External dependencies"
 spec baseline: 'AIExternalDependencies' with: [ 
-  spec
-    loads: #( 'PolyMathGroup' 'Roassal3Group' 'DataFrameGroup' );
-    repository: 'github://pharo-ai/external-dependencies' ].
+    spec
+        loads: #( 'PolyMathGroup' 'Roassal3Group' 'DataFrameGroup' );
+        repository: 'github://pharo-ai/external-dependencies' ].
 ```
