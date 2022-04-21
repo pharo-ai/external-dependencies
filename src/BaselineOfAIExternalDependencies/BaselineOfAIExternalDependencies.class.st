@@ -1,3 +1,6 @@
+"
+I am a baseline for loading external dependencies. For external dependencies we mean projects that are outside pharo-ai
+"
 Class {
 	#name : #BaselineOfAIExternalDependencies,
 	#superclass : #BaselineOf,
