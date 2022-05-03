@@ -15,8 +15,19 @@ For the moment, external-dependencies can load three projects:
 Include the dependency inside your baseline. For example, if you want to use Roassal3, PolyMath and DataFrame in your project just add:
 
 ```st
-spec baseline: 'AIExternalDependencies' with: [ 
-    spec
-        loads: #( 'PolyMathGroup' 'Roassal3Group' 'DataFrameGroup' );
-        repository: 'github://pharo-ai/external-dependencies' ].
+
+"To add a dependency to PolyMath"
+spec
+    	baseline: 'AIExternalPolyMath'
+    	with: [ spec repository: 'github://pharo-ai/external-dependencies' ].
+
+"To add a dependency to DataFrame"
+spec
+    	baseline: 'AIExternalDataFrame'
+    	with: [ spec repository: 'github://pharo-ai/external-dependencies' ].
+
+"To add a dependency to Roassal3"
+spec
+    	baseline: 'AIExternalRoassal3'
+    	with: [ spec repository: 'github://pharo-ai/external-dependencies' ]
 ```
