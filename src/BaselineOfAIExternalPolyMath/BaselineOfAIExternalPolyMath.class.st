@@ -4,7 +4,7 @@ I am a baseline for loading PolyMath external dependencies.
 Class {
 	#name : #BaselineOfAIExternalPolyMath,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfAIExternalDependencies
+	#category : #BaselineOfAIExternalPolyMath
 }
 
 { #category : #baselines }

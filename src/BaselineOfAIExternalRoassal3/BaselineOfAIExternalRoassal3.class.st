@@ -4,7 +4,7 @@ I am a baseline for loading Roassal3 external dependencies.
 Class {
 	#name : #BaselineOfAIExternalRoassal3,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfAIExternalDependencies
+	#category : #BaselineOfAIExternalRoassal3
 }
 
 { #category : #baselines }

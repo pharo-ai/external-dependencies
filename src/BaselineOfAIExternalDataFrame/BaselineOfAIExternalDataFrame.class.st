@@ -4,7 +4,7 @@ I am a baseline for loading DataFrame external dependencies.
 Class {
 	#name : #BaselineOfAIExternalDataFrame,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfAIExternalDependencies
+	#category : #BaselineOfAIExternalDataFrame
 }
 
 { #category : #baselines }
