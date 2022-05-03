@@ -25,8 +25,8 @@ BaselineOfAIExternalDependencies >> baseline: spec [
 BaselineOfAIExternalDependencies >> defineGroups: spec [
 
 	spec
+		group: 'default' with: #(  );
 		group: 'PolyMathGroup' with: #( 'PolyMath' );
 		group: 'DataFrameGroup' with: #( 'DataFrame' );
 		group: 'Roassal3Group' with: #( 'Roassal3' )
-
 ]
