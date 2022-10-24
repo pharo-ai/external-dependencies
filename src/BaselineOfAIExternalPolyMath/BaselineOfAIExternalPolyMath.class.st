@@ -13,7 +13,7 @@ BaselineOfAIExternalPolyMath >> baseline: spec [
 	<baseline>
 	spec for: #( common ) do: [
 		"External dependecies"
-		spec baseline: 'PolyMath' with: [ spec repository: 'github://PolyMathOrg/PolyMath:v1.0.4' ].
+		spec baseline: 'PolyMath' with: [ spec repository: 'github://PolyMathOrg/PolyMath:v1.0.5' ].
 		
 		"Groups"
 		spec group: 'default' with: #( 'PolyMath' ) ]
