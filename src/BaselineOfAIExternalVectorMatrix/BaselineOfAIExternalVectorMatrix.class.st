@@ -12,7 +12,7 @@ BaselineOfAIExternalVectorMatrix >> baseline: spec [
 
 	<baseline>
 	spec for: #( common ) do: [ "External dependecies"
-		spec baseline: 'MathVectorMatrix' with: [ spec repository: 'github://PolyMathOrg/vector-matrix:v1.0.3/src' ].
+		spec baseline: 'MathVectorMatrix' with: [ spec repository: 'github://PolyMathOrg/vector-matrix:v1.x.x/src' ].
 
 		"Groups"
 		spec group: 'default' with: #( 'MathVectorMatrix' ) ]
